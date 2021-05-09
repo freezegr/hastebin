@@ -1,5 +1,5 @@
 {
-  "name": "hastebin-note",
+  "name": "better-hastebin",
   "version": "0.0.1-beta",
   "description": "hastebin api",
   "main": "index.js",
