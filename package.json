@@ -1,0 +1,25 @@
+{
+  "name": "hastebin",
+  "version": "0.0.1",
+  "description": "hastebin api",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freezegr/node-hastebin.git"
+  },
+  "keywords": [
+    "hastebin"
+  ],
+  "author": "freezegr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freezegr/node-hastebin/issues"
+  },
+  "homepage": "https://github.com/freezegr/node-hastebin#readme"
+}
