@@ -7,11 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node ./test/index.test.js"
+    "test": "node ./test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freezegr/node-hastebin.git"
+    "url": "git+https://github.com/freezegr/hastebin.git"
   },
   "keywords": [
     "hastebin"
@@ -19,7 +19,7 @@
   "author": "freezegr",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/freezegr/node-hastebin/issues"
+    "url": "https://github.com/freezegr/hastebin/issues"
   },
-  "homepage": "https://github.com/freezegr/node-hastebin#readme"
+  "homepage": "https://github.com/freezegr/hastebin#readme"
 }
