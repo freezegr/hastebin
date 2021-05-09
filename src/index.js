@@ -1,6 +1,4 @@
 const fetch = require("node-fetch");
-const Table = require(`cli-table`);
-
 
 module.exports.upload = async (text, opts = {}) => {
   if(typeof text != 'string') throw new Error('Input is not text!');
@@ -10,7 +8,7 @@ module.exports.upload = async (text, opts = {}) => {
 
   const res = await fetch(`${server}documents`, {
     method: "POST",
-    body: text,
+    body: text.replace(/\u001b[^m]*?m/g,""),
     headers: {
       "Content-Type": opts.content_type ? opts.content_type: 'text/text'
     }

@@ -1,6 +1,6 @@
 {
   "name": "hastebin-note",
-  "version": "0.0.1",
+  "version": "0.0.1-beta",
   "description": "hastebin api",
   "main": "index.js",
   "directories": {

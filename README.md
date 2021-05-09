@@ -104,7 +104,7 @@ let players = [
 
 players.forEach((player, count) => table.push([count, player.name, player.id, player.level, player.pings+'ms']));
 
-hastebin(table.toString().replace(/\u001b[^m]*?m/g,"")).then((url) => {
+hastebin(table.toString()).then((url) => {
   console.log(url)
 });
 ```
