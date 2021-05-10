@@ -1,8 +1,8 @@
-<h1 align="center">Welcome to Hastebin-Note 👋</h1>
+<h1 align="center">Welcome to better-hastebin 👋</h1>
 <p align="center">
-  <img src="https://img.shields.io/npm/v/hastebin-note?orange=blue" />
-  <a href="https://www.npmjs.com/package/hastebin-note">
-    <img alt="downloads" src="https://img.shields.io/npm/dm/hastebin-note.svg?color=blue" target="_blank" />
+  <img src="https://img.shields.io/npm/v/better-hastebin?orange=blue" />
+  <a href="https://www.npmjs.com/package/better-hastebin">
+    <img alt="downloads" src="https://img.shields.io/npm/dm/better-hastebin.svg?color=blue" target="_blank" />
   </a>
   <a href="https://github.com/freezegr/insta.js/blob/master/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
@@ -23,12 +23,12 @@
 
 ## Installation 
 
-`npm i hastebin-note`
+`npm i better-hastebin`
 
 ## Upload
 
 ```js
-const hastebin = require('hastebin-note');
+const hastebin = require('better-hastebin');
 
 hastebin('hello world').then((url) => {
   console.log(url) //-> https://hastebin.de/owixegarak
@@ -38,7 +38,7 @@ hastebin('hello world').then((url) => {
 ## option.raw
 
 ```js
-const hastebin = require('hastebin-note');
+const hastebin = require('better-hastebin');
 
 let options = {
   raw: true
@@ -52,7 +52,7 @@ hastebin('hello world', options).then((url) => {
 ## option.server
 
 ```js
-const hastebin = require('hastebin-note');
+const hastebin = require('better-hastebin');
 
 let options = {
   server: 'https://hastebin.com/'
@@ -69,7 +69,7 @@ hastebin('hello world', options).then((url) => {
 
 ```js
 const Table = require(`cli-table`);
-const hastebin = require('hastebin-note');
+const hastebin = require('better-hastebin');
 
 let table = new Table({
   head: [
@@ -84,7 +84,7 @@ let table = new Table({
 let players = [
   {
     name: 'freeze',
-    id: '2321',
+    id: 2321,
     pings: 80,
     level: 60
   },
@@ -96,8 +96,8 @@ let players = [
   },
   {
     name: 'roflis',
-    id: '2321',
-    pings: 80,
+    id: 5361,
+    pings: 89,
     level: 56
   }
 ];
